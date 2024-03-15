@@ -2,46 +2,33 @@ const express = require('express');
 const mongoose = require('mongoose');
 
 const url = "mongodb+srv://patoasesino69:DVnolMGIPsiKJypZ@elclustersito68.jrgaxcl.mongodb.net/test";
-const app = express();
-mongoose.connect(url);
 
-const schema = new mongoose.Schema(
-    {
-        id : Number,
-        first_name : String,
-        last_name : String,
-        email :String,
-        gender :String,
-        ip_address :String,
-        language :String,
-        university :String,
-        linkedin_skills :String
+//rutas mi zo
+const usersRouter = require("./src/router/router.model.js")
+
+class Server {
+    constructor() {
+        this.app = express();
+        this.port = 3001;
+        this.databaseConnection =  mongoose.connect(url);
+        this.router();
+        this.listen();
     }
-    );
 
-const usersModel = mongoose.model("users", schema);
+    router() {
+        this.app.get('/', (req, res) => {
+            res.send('Te perdiste???');
+        });
+        // Configurar routers aqui
+        this.app.use("/api/v1",usersRouter);
+    }
 
-app.get('/users', (req, res) => {
-    usersModel.find({}).then(users => {
-        res.json(users);
-    }).catch(err => {console.log(err);});
-});
-
-app.post('/users', async  (req, res) => {
-
-    try {
-        const newUser = new UserModel({ name, age });
-        await newUser.save();
-        res.json({ message: 'Usuario guardado exitosamente' });
-      } catch (error) {
-        console.error(error);
-        res.status(500).json({ error: 'Error al guardar el usuario' });
-      }
-
-});
-
-app.listen(3002, () => {
-    console.log("Server running on port 3002");
-});
+    listen() {
+        this.app.listen(this.port, () => {
+            console.log(`corriendo en port ${this.port}`);
+        });
+    }
+}
 
 
+new Server();
