@@ -1,0 +1,1 @@
+codigo spaguetti como keria  :c y no es porque el modelo no haya querido funcioar >:v se espera una pronta actualización!! y tambien del readme jsjsj

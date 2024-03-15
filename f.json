@@ -1,0 +1,212 @@
+[
+    {
+        nombres: "Juan",
+        apellidos: "Pérez",
+        correo: "juan@example.com",
+        ciudad: "Bogotá",
+        país: "Colombia",
+        salario: 2500,
+        edad: 30,
+        altura: 175,
+        peso: 180
+    },
+    {
+        nombres: "María",
+        apellidos: "González",
+        correo: "maria@example.com",
+        ciudad: "Madrid",
+        país: "España",
+        salario: 3000,
+        edad: 28,
+        altura: 163,
+        peso: 150
+    },
+    {
+        nombres: "John",
+        apellidos: "Smith",
+        correo: "john@example.com",
+        ciudad: "New York",
+        país: "USA",
+        salario: 4000,
+        edad: 35,
+        altura: 180,
+        peso: 200
+    },
+    {
+        nombres: "Luisa",
+        apellidos: "Martinez",
+        correo: "luisa@example.com",
+        ciudad: "Mexico City",
+        país: "Mexico",
+        salario: 2800,
+        edad: 32,
+        altura: 168,
+        peso: 160
+    },
+    {
+        nombres: "Carlos",
+        apellidos: "López",
+        correo: "carlos@example.com",
+        ciudad: "Santiago",
+        país: "Chile",
+        salario: 3200,
+        edad: 33,
+        altura: 178,
+        peso: 170
+    },
+    {
+        nombres: "Ana",
+        apellidos: "Rodríguez",
+        correo: "ana@example.com",
+        ciudad: "Buenos Aires",
+        país: "Argentina",
+        salario: 2900,
+        edad: 29,
+        altura: 165,
+        peso: 140
+    },
+    {
+        nombres: "David",
+        apellidos: "García",
+        correo: "david@example.com",
+        ciudad: "Barcelona",
+        país: "España",
+        salario: 3500,
+        edad: 31,
+        altura: 182,
+        peso: 190
+    },
+    {
+        nombres: "Emily",
+        apellidos: "Johnson",
+        correo: "emily@example.com",
+        ciudad: "Los Angeles",
+        país: "USA",
+        salario: 3800,
+        edad: 27,
+        altura: 170,
+        peso: 150
+    },
+    {
+        nombres: "Ricardo",
+        apellidos: "Fernández",
+        correo: "ricardo@example.com",
+        ciudad: "Lima",
+        país: "Perú",
+        salario: 3000,
+        edad: 34,
+        altura: 175,
+        peso: 160
+    },
+    {
+        nombres: "Laura",
+        apellidos: "Martínez",
+        correo: "laura@example.com",
+        ciudad: "Medellín",
+        país: "Colombia",
+        salario: 2700,
+        edad: 25,
+        altura: 160,
+        peso: 130
+    },
+    {
+        nombres: "Mohammed",
+        apellidos: "Ali",
+        correo: "mohammed@example.com",
+        ciudad: "Cairo",
+        país: "Egipto",
+        salario: 3200,
+        edad: 29,
+        altura: 175,
+        peso: 180
+    },
+    {
+        nombres: "Sofía",
+        apellidos: "Gutiérrez",
+        correo: "sofia@example.com",
+        ciudad: "Montevideo",
+        país: "Uruguay",
+        salario: 2900,
+        edad: 27,
+        altura: 163,
+        peso: 150
+    },
+    {
+        nombres: "Alexander",
+        apellidos: "Ivanov",
+        correo: "alexander@example.com",
+        ciudad: "Moscow",
+        país: "Russia",
+        salario: 3800,
+        edad: 33,
+        altura: 180,
+        peso: 190
+    },
+    {
+        nombres: "Yuki",
+        apellidos: "Tanaka",
+        correo: "yuki@example.com",
+        ciudad: "Tokyo",
+        país: "Japan",
+        salario: 3500,
+        edad: 30,
+        altura: 168,
+        peso: 160
+    },
+    {
+        nombres: "Hans",
+        apellidos: "Schmidt",
+        correo: "hans@example.com",
+        ciudad: "Berlin",
+        país: "Germany",
+        salario: 4000,
+        edad: 35,
+        altura: 185,
+        peso: 180
+    },
+    {
+        nombres: "Isabella",
+        apellidos: "Rossi",
+        correo: "isabella@example.com",
+        ciudad: "Rome",
+        país: "Italy",
+        salario: 3200,
+        edad: 31,
+        altura: 170,
+        peso: 150
+    },
+    {
+        nombres: "Chen",
+        apellidos: "Wei",
+        correo: "chen@example.com",
+        ciudad: "Beijing",
+        país: "China",
+        salario: 2800,
+        edad: 28,
+        altura: 168,
+        peso: 155
+    },
+    {
+        nombres: "Elena",
+        apellidos: "Vasquez",
+        correo: "elena@example.com",
+        ciudad: "Madrid",
+        país: "Spain",
+        salario: 3100,
+        edad: 29,
+        altura: 165,
+        peso: 140
+    },
+    {
+        nombres: "Nadia",
+        apellidos: "Popova",
+        correo: "nadia@example.com",
+        ciudad: "Saint Petersburg",
+        país: "Russia",
+        salario: 3500,
+        edad: 32,
+        altura: 170,
+        peso: 160
+    }
+]
+
